@@ -11,16 +11,16 @@ By Jonah and Andrea
 ## Setup and Requirements
 This project requires a computer, internet, and coding expereience - we have 2/3
 
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Awesome Presentation</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <style type="text/css">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
       body { font-family: 'Droid Serif'; }
       h1, h2, h3 {
         font-family: 'Yanone Kaffeesatz';
@@ -34,11 +34,7 @@ This project requires a computer, internet, and coding expereience - we have 2/3
 
 class: center, middle
 
-# My Awesome Presentation
-
-???
-
-Notes for the _first_ slide!
+# Title
 
 ---
 
@@ -48,15 +44,14 @@ Notes for the _first_ slide!
 2. Deep-dive
 3. ...
 
-[NOTE]: Note that you need remark.js alongside this html file, but no internet connection.
 ---
 
 # Introduction
 
     </textarea>
-    <script src="out/remark.js" type="text/javascript">
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
-    <script type="text/javascript">
+    <script>
       var slideshow = remark.create();
     </script>
   </body>
